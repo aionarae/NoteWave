@@ -22,12 +22,12 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles. 
       new HtmlWebpackPlugin({
         title: 'Notes App',
-        template: '',
+        template: './index.html',
       }),
       // injects the service worker into the HTML
       new InjectManifest({
-        swSrc: '/src-sw.js',
-        swDest: '/src-sw.js',
+        swSrc: path.join(__dirname, 'src-sw.js'),
+        swDest: 'src-sw.js',
       }),
       // Webpack plugin that generates our manifest file.
       new WebpackPwaManifest({
