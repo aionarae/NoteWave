@@ -1,8 +1,12 @@
-# E-Commerce Site
+# NoteWave
   
 ## Screenshot:
 
 ![Image alt text](./assets/images/project-screenshot.png)
+
+## Link to deployed application:
+
+https://notewave-2uo3.onrender.com/
 
 ## Description:
 
